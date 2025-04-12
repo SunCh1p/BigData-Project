@@ -42,5 +42,6 @@ Available data columns:
 
 * debug_fullDataset* : full dataset used per-parameter configuration, ignore in trials.
 ---
+(for v1.0.1)
 * Exec time for 200,000 target, 20,000 drop : real    8m19.779s | user    8m18.940s | sys     0m0.114s
 * Exec time for 200,000 target, 100,000 drop : real    15m52.145s | user    15m50.856s | sys     0m0.115s
