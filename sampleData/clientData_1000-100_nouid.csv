@@ -1,0 +1,1001 @@
+name,age,gender,zip,disease
+Talonzo D Galins,46,M,46899,Migraine
+Kylor Y Kellegas,86,M,19597,Diabetes
+Alvator C Perranch,38,M,20070,Influenza
+Londra H Dyerson,66,F,53781,Diabetes
+Kalia Z Reevens,73,F,49465,Ear Infection
+Kaire X Hodgess,89,F,68224,Ear Infection
+Jade F Odon,59,M,24614,Influenza
+Adleen N Russey,29,F,25012,Bronchitis
+Graydon Y Spencis,33,M,39280,Asthma
+Arlos E Gentu,61,M,70770,Strep Throat
+Camrynn O Herray,72,F,34745,Asthma
+Joceli K Williott,88,F,60999,Diabetes
+Paisie J Vales,1,F,47813,Sinus Infection
+Giova J Edward,33,M,69002,Influenza
+Beatricity R Moorest,86,F,63192,Diabetes
+Chan U Richa,22,M,25195,Pneumonia
+Hassac S Dorsen,19,M,21224,Lung Cancer
+Rando M Curra,39,M,65926,Bronchitis
+Arest P Burtine,77,M,49838,Sinus Infection
+Princy R Kram,92,M,15639,Lung Cancer
+Moiseo D Huntes,80,M,51165,Ear Infection
+Alicity G Fleton,30,F,75193,Strep Throat
+Nikolan B Pruitts,77,M,41312,Bronchitis
+Beckhammed H Phillon,71,M,48873,Ear Infection
+Kehlan T Richmon,56,F,21235,Influenza
+Skylee M Starks,24,F,65117,Sinus Infection
+Jamille C Richoa,33,F,25975,Heart Disease
+Lail R Under,91,F,40952,Sinus Infection
+Sophine Y Bearsey,95,F,41362,Asthma
+France M Freer,67,M,46830,Influenza
+Rander E Walteros,54,M,28507,Bronchitis
+Gustin E Holliams,20,M,16263,Ear Infection
+Deste W Ventes,100,F,17343,Strep Throat
+Hayleen E Mackwell,53,F,61471,Lung Cancer
+Fred L Gord,67,M,43412,Asthma
+Ariann V Auston,56,F,49976,Influenza
+Aylah V Sierce,5,F,38156,Lung Cancer
+Landra R Patts,62,F,57977,Sinus Infection
+Ingrida I Gregos,69,F,71188,Lung Cancer
+Aubriena T Duarez,46,F,12895,Influenza
+Ryana R Chrison,1,F,18827,Lung Cancer
+Alexanda S Sier,50,F,26094,Strep Throat
+Zhavis K Fitzger,32,F,40498,Pneumonia
+Katali M Delas,72,F,25646,Bronchitis
+Mica Q Donoval,29,F,52773,Ear Infection
+Alissa R Howers,90,F,60865,Pneumonia
+Hayda F Buller,33,F,20148,Ear Infection
+Halee O Carper,33,F,44339,Strep Throat
+Damar C Navalon,79,M,13760,Sinus Infection
+Meilah V McLeal,10,F,25688,Asthma
+Grayler M Rodges,72,M,43710,Lung Cancer
+Khalee X Pierry,6,F,43486,Sinus Infection
+Ariah J Herrea,47,M,53983,Ear Infection
+Malcoln P Mullierce,86,M,36919,Asthma
+Marter H Pratton,66,M,75512,Ear Infection
+Carsyn B Klins,64,M,39224,Asthma
+Wenda T Coffman,56,F,59798,Diabetes
+Nataley H Gallen,52,F,40385,Migraine
+Zachie V Solineda,20,M,60948,Sinus Infection
+Youstin C Greenez,76,M,43795,Ear Infection
+Palma G Normicks,58,F,56768,Migraine
+Briah B Logana,23,F,24687,Lung Cancer
+Presa B Starke,89,F,33880,Strep Throat
+Ronas U Sherts,80,M,24475,Strep Throat
+Kalen X Bentle,33,M,11160,Diabetes
+Saine F Meyes,85,M,28298,Asthma
+Taylermo N Maldwin,70,M,54323,Sinus Infection
+Killio Y Powerson,76,M,63831,Influenza
+Ericho Q Freene,97,M,26463,Influenza
+Eliano P Cartler,8,M,53932,Asthma
+Clemena O Landers,5,F,44469,Heart Disease
+Arien D Blace,99,M,63077,Pneumonia
+Meghani U Andright,54,F,32691,Heart Disease
+Elissa S Corton,21,F,47839,Migraine
+Lachie U Bennis,41,M,25440,Lung Cancer
+Waylo Q Robins,23,M,12681,Asthma
+Toriah V Palmes,18,M,66225,Ear Infection
+Hayline J Dickland,61,F,40980,Influenza
+Xandre T Serrett,79,M,55599,Pneumonia
+Gracle L Avilard,51,F,69308,Lung Cancer
+Cedrix G Collin,13,M,71475,Bronchitis
+Amariah F Freeney,37,M,33664,Diabetes
+Beatrica S Benning,66,F,21929,Heart Disease
+Elises S Barris,15,M,37755,Bronchitis
+Kierra Q Barner,36,F,10213,Diabetes
+Braylor Y Churcher,6,M,35974,Asthma
+Selani F Brado,4,F,41063,Strep Throat
+Elis F Chanand,33,M,66157,Asthma
+Yamilan J Zavage,92,F,47552,Migraine
+Tucken Q Schran,54,M,57978,Diabetes
+Rylas R Castron,13,M,31359,Bronchitis
+Chaney L Winton,78,F,34704,Strep Throat
+Moshua E Chasey,3,M,33951,Diabetes
+Julina S Barne,75,F,32808,Ear Infection
+Trina V Conroe,33,F,74319,Strep Throat
+Alorah G Greeman,91,F,12680,Ear Infection
+Taliana P Pecker,18,F,38057,Sinus Infection
+Olivaan U Simmer,48,M,65678,Diabetes
+Kaileen O Mitcheco,61,F,46991,Influenza
+Grancer W Raymon,68,M,38737,Influenza
+Natalena I Marson,50,F,46852,Pneumonia
+Merena G McConroe,23,F,65056,Pneumonia
+Delia Q Arell,39,F,47130,Pneumonia
+Benni I Braneda,92,M,58899,Migraine
+Lince Z Ingrames,100,M,37384,Asthma
+Mariar T Maynes,42,F,22686,Sinus Infection
+Prin W Brews,6,M,67062,Diabetes
+Trine Q Randova,39,F,51408,Lung Cancer
+Maden M Alexandero,80,F,58567,Heart Disease
+Hendry O Colliotts,33,M,28132,Pneumonia
+Stelyn D Sington,66,F,29590,Influenza
+Daya Z McCorte,78,F,58435,Strep Throat
+Alfrey Z Wheele,29,M,61663,Sinus Infection
+Emeli G Wate,56,F,48954,Bronchitis
+Hendriel B Dalter,67,M,26335,Influenza
+Ganni Y Carrell,71,M,27482,Strep Throat
+Tatianna R Aver,86,F,38995,Influenza
+Javis H Hoove,88,M,66475,Lung Cancer
+Ettany Z Simmerman,26,F,45638,Sinus Infection
+Princenzo J Garrisher,85,M,24955,Asthma
+Phoen C Mirand,22,M,47792,Heart Disease
+Elliah C Serry,23,F,46936,Lung Cancer
+Westlee Z Skins,13,M,46321,Bronchitis
+Skylah K Jimes,54,F,37422,Lung Cancer
+Every M Andry,2,F,54423,Strep Throat
+Xiomarinne J Mich,97,F,55104,Pneumonia
+Chary W Swans,72,M,48619,Heart Disease
+Anton C Belton,88,M,31596,Influenza
+Ronio M McClarke,49,M,20202,Pneumonia
+Crystasha J Morsen,71,F,48151,Heart Disease
+Emmed Z Carris,58,M,29144,Sinus Infection
+Eliser F Mayna,65,M,35768,Lung Cancer
+Denvery K Tranks,6,M,37154,Pneumonia
+Ganner N Shelps,51,M,73204,Influenza
+Ryderson S Cunning,98,M,39328,Bronchitis
+Lilia U Nichard,84,F,57471,Ear Infection
+Scarlee K Correal,20,F,56473,Strep Throat
+Collyson K Murry,22,F,64197,Strep Throat
+Loch V Millo,57,M,52823,Pneumonia
+Alariah P Garreal,55,M,37174,Strep Throat
+Camiyah S Vald,55,F,42262,Migraine
+Ericio P Cart,12,M,63051,Lung Cancer
+Sadilyn E Suartin,4,F,21304,Migraine
+Franza B McLaugh,45,F,10794,Lung Cancer
+Paulia G Merry,73,F,57714,Lung Cancer
+Daxtyn N Benneda,21,M,11330,Diabetes
+Raelani G Cisner,84,F,31410,Migraine
+Grego T Hammon,37,M,56742,Bronchitis
+Andro D Strick,58,M,55548,Influenza
+Josella W McCullo,61,F,37270,Asthma
+Rogelo T Hubbar,15,M,26919,Asthma
+Jocely G Velanch,85,F,37493,Bronchitis
+Ophelsey O Lowells,36,F,29798,Ear Infection
+Emeron Q Mannon,39,M,61737,Heart Disease
+Josephia G Wilkers,29,F,14039,Sinus Infection
+Triston I Parray,68,M,39627,Heart Disease
+Jerren M Burger,65,M,56927,Sinus Infection
+Beth H Selly,13,F,47166,Migraine
+Leonah X Esquez,27,M,60729,Migraine
+Blaina R Burchez,61,F,68725,Migraine
+Kendan B Espard,42,M,43991,Asthma
+Freder N Compson,29,M,14367,Sinus Infection
+Rileah T Padilly,33,F,63597,Lung Cancer
+Willia U Freno,5,F,52557,Strep Throat
+Wesse J Ortinez,38,M,22397,Asthma
+Flora X Magan,24,F,50790,Ear Infection
+Khalisa R Curton,2,F,59736,Lung Cancer
+Youstus P Mannor,89,M,31194,Lung Cancer
+Tatima V Gillon,29,F,18984,Strep Throat
+Zechael E Jara,58,M,48466,Bronchitis
+Brad A Cooks,25,M,14428,Lung Cancer
+Eddiel R Oneid,49,M,51874,Diabetes
+Philo C Wash,23,M,66369,Ear Infection
+Calie P Travez,11,F,58815,Diabetes
+Trenzo R Gilmoran,28,M,66476,Migraine
+Amory B Bentry,89,F,29083,Diabetes
+Bryn C Wyatter,29,F,33154,Bronchitis
+Alon M Beckersen,71,M,71202,Diabetes
+Lando H Monton,60,M,62176,Heart Disease
+Mavianna C Howery,27,F,45173,Heart Disease
+Raylor G Poncent,26,M,57698,Migraine
+Malina S Landley,6,F,69448,Lung Cancer
+Frantian C Sher,60,M,50851,Heart Disease
+Carleen L Rasmusso,98,F,60735,Sinus Infection
+Valee P Espie,37,F,74339,Influenza
+Call P Munoza,91,M,15695,Heart Disease
+Chasen Z Cannan,98,M,20674,Diabetes
+Dalaya Q Peter,93,F,14310,Ear Infection
+Alline Z Hortega,28,F,46080,Strep Throat
+Levin E Simmond,53,M,56479,Pneumonia
+Kynley N Castrady,44,F,23372,Bronchitis
+Castin F Fernand,30,M,46252,Strep Throat
+Leign Y Adamsey,53,M,17807,Migraine
+Dala L Fosta,6,F,73559,Sinus Infection
+Wilden W Mulloney,74,M,31333,Pneumonia
+Nathryn W Bens,29,F,14906,Asthma
+Alark G Juartis,94,M,29586,Lung Cancer
+Omarion S Littman,100,M,72273,Influenza
+Marlo T Parson,60,M,67742,Diabetes
+Jerett V Vargan,12,M,72303,Influenza
+Vince D Barrell,38,M,23463,Strep Throat
+Moham G Bull,46,M,19225,Bronchitis
+Thoman J Roses,27,M,63155,Diabetes
+Megacy D Townsen,90,F,33833,Ear Infection
+Ophel J Booney,84,F,68237,Bronchitis
+Carthann C Laneda,60,F,52732,Bronchitis
+Cynter B Carley,3,F,61311,Influenza
+Anso E Frand,79,M,53994,Diabetes
+Fabias H Delace,5,M,28827,Pneumonia
+Saylah Z Clarrell,1,F,13959,Influenza
+Grayle P Farlan,88,M,12922,Asthma
+Miloh J Allish,88,M,21442,Ear Infection
+Angelia S Frano,60,F,22907,Influenza
+Riverly S Bearsh,32,F,30327,Bronchitis
+Gwenda M Seller,86,F,49414,Strep Throat
+Julisha M Trane,11,F,51763,Bronchitis
+Tream R Watter,60,F,66062,Strep Throat
+Finner X Shan,27,M,47374,Bronchitis
+Kelsea B Mannis,12,F,41233,Asthma
+Kill Y Benite,2,M,15749,Lung Cancer
+Jazmina B Hampbell,17,F,18673,Pneumonia
+Jayleena I Chrishop,100,F,58506,Bronchitis
+Nance M Popez,22,F,67082,Diabetes
+Raylon Z Cobbs,4,M,20883,Lung Cancer
+Derrett U Huerry,32,M,52665,Strep Throat
+Mirah C Tangel,55,F,31224,Heart Disease
+Prine F Jamers,93,F,42300,Lung Cancer
+Zyairo H Blanda,62,M,70439,Strep Throat
+Kalina H Denning,87,F,63214,Strep Throat
+Casper Z Galinas,47,M,57303,Bronchitis
+Jaming U Cort,16,M,56377,Diabetes
+Joan S Muelandley,41,F,61844,Asthma
+Just C Osborn,49,F,57890,Ear Infection
+Tayler C Valen,11,M,25416,Bronchitis
+Raymon W Petero,12,M,72390,Migraine
+Bodiel P Bulles,28,M,64209,Asthma
+Maislie S Crost,63,F,31712,Migraine
+Zhavina M Jeffer,20,F,67741,Strep Throat
+Milly S Harmer,38,M,37385,Diabetes
+Cameson D Scotts,26,M,15116,Migraine
+Roham H Halen,93,M,73761,Heart Disease
+Juliot D Quinter,40,M,36002,Migraine
+Reigh A Fros,96,F,64078,Asthma
+Deando Z Pacherty,52,M,49057,Migraine
+Spencen V Jaram,46,M,65208,Asthma
+Ethane P Swansen,15,M,10329,Pneumonia
+Mustus O Olivel,46,M,60533,Heart Disease
+Hadleen D Burne,25,F,11365,Heart Disease
+Wrene B Foleman,7,F,73980,Pneumonia
+Taylee Y Evan,64,F,68534,Asthma
+Santer U Blacks,16,M,10763,Pneumonia
+Este S Bald,62,F,41006,Influenza
+Jessan G Chenson,33,M,14269,Influenza
+Lawren M Cookes,82,M,42908,Migraine
+Anton S Kanedy,56,F,17117,Lung Cancer
+Emiley X Malds,87,F,55680,Influenza
+Jayce C Branc,92,F,15078,Ear Infection
+Brayla C Freder,44,F,58619,Lung Cancer
+Kames F Hancent,85,M,53692,Ear Infection
+Ander Y Patricks,53,M,22326,Migraine
+Lexis D Joses,44,F,71302,Bronchitis
+Jilla D Hintosh,2,F,30189,Sinus Infection
+Baylon Z Mayes,11,M,75290,Diabetes
+Tianna X Casta,24,F,55381,Migraine
+Bennan S Baldwell,19,M,24171,Sinus Infection
+Tannon C Blaker,17,M,18345,Sinus Infection
+Alori Q Venters,98,F,72827,Heart Disease
+Pris C Nelsen,25,F,64453,Diabetes
+Emilan L Randt,38,F,28276,Strep Throat
+Izabel O Torroyo,16,F,28118,Asthma
+Channa F Molis,68,F,26777,Lung Cancer
+Blakai O Carlan,43,M,70975,Lung Cancer
+Isabeth T Miley,88,F,58530,Pneumonia
+Jenne U Calder,6,F,44692,Lung Cancer
+Steviena M Garrea,22,F,69651,Bronchitis
+Lilla D Mahon,48,F,39689,Lung Cancer
+Evanna R Fiels,45,F,37808,Influenza
+Gretzi N Lando,14,F,36815,Sinus Infection
+Willy X Blevinosa,41,M,48520,Pneumonia
+Leangelo W Riles,67,M,23661,Asthma
+Trevon O Cervan,45,M,70819,Ear Infection
+Maurick F Spentoya,82,M,42404,Migraine
+Dennon P Niels,29,M,19465,Strep Throat
+Darion Z Palazar,56,M,63596,Lung Cancer
+Addily Z Andrice,20,F,56481,Strep Throat
+Zarianna L Vaugh,70,F,70620,Asthma
+Lillas V Yangel,66,F,66695,Asthma
+Oliver A Herran,78,F,24178,Strep Throat
+Lyana N Correlly,29,F,70136,Influenza
+Dahliah M McCart,71,F,44546,Migraine
+Ales I Perra,15,M,56889,Pneumonia
+Quince W Rand,97,M,12474,Ear Infection
+Marlie W Holmeroa,68,F,29800,Heart Disease
+Denner H Aller,12,M,71386,Diabetes
+Harmonica W Hickson,1,F,74106,Sinus Infection
+Amalyn R Saundez,13,F,20680,Lung Cancer
+Adriah D Ramire,32,F,23640,Sinus Infection
+Cannox P Solison,65,M,74966,Bronchitis
+Rodrien L Reynold,34,M,58478,Lung Cancer
+Sanda S Hick,77,F,57230,Migraine
+Jaden P Websteroa,67,F,44306,Heart Disease
+Kailee O Zimmero,69,F,51287,Influenza
+Alaire U Jamery,71,F,18283,Ear Infection
+Lilyn C Oconney,32,F,32487,Migraine
+Zecharian R Burgeras,96,M,43459,Strep Throat
+Imrank W Bland,69,M,54348,Lung Cancer
+Paulie L Pott,28,F,63454,Asthma
+Galiley M Dyers,68,F,23238,Diabetes
+Siennon O Jose,14,F,60378,Sinus Infection
+Mosef H Ayer,25,M,32112,Influenza
+Xioma N Willard,18,F,31562,Asthma
+Ricah S Nobles,68,M,26204,Lung Cancer
+Keylah M Navage,34,F,64807,Asthma
+Lucian L Zava,45,F,10800,Lung Cancer
+Ronathan B Fuent,66,M,37112,Asthma
+Call K Baxters,88,F,56970,Asthma
+Kyriel V Calhoung,37,M,22881,Heart Disease
+Nathane T Galler,94,M,34695,Bronchitis
+Jakota E Stephen,40,M,64622,Bronchitis
+Rayle Y Glove,90,M,51629,Migraine
+Simora B McCull,63,F,22566,Influenza
+Alario W Galvara,63,M,55787,Strep Throat
+Joses B Yodes,87,M,48419,Strep Throat
+Achi L Hurles,10,M,44579,Asthma
+Nathew J Chavers,42,M,21331,Heart Disease
+Kassa D Hend,19,F,51878,Strep Throat
+Chaddox Y Chana,79,M,28114,Heart Disease
+Eline V Watton,71,F,47962,Influenza
+Lailey U Porte,63,F,13895,Strep Throat
+Waylor N Spearsh,22,M,39583,Influenza
+Kaline F Trujiller,35,F,73817,Diabetes
+Ailee N Bank,26,F,53919,Strep Throat
+Desha Z Durhamb,33,M,43570,Diabetes
+Laylee J Merrett,22,F,27442,Strep Throat
+Renesiah V Burges,24,M,34178,Lung Cancer
+Gene E Rowerson,32,F,67290,Sinus Infection
+Issan D Lovers,68,M,58261,Heart Disease
+Dallie Y Perett,14,F,43056,Migraine
+Elairia M Cummin,72,F,51111,Diabetes
+Eastin I Gard,90,M,19624,Heart Disease
+Briam P Mario,19,F,13395,Asthma
+Amarah O Turnett,61,F,19309,Bronchitis
+Dustias F Pitt,78,M,49839,Migraine
+Ivannis W Hubbarry,79,M,71094,Lung Cancer
+Gabrie N Gomers,13,F,44114,Migraine
+Melah S Warey,78,F,60243,Asthma
+Bake E Gold,5,M,37432,Sinus Infection
+Wallus G Pring,61,M,52159,Bronchitis
+Moiser X McPherra,25,M,27822,Lung Cancer
+Noella O Aguire,12,F,36234,Strep Throat
+Debora D Bentian,79,F,50192,Heart Disease
+Quent P Harres,79,M,28385,Influenza
+Conova C Randez,96,M,67739,Diabetes
+Jacon W Coope,72,M,68711,Strep Throat
+Junio G Campton,46,M,23665,Bronchitis
+Alejandria E Fowlan,75,F,12051,Diabetes
+Prina S Aguila,65,F,14671,Ear Infection
+Braylah C Taylore,90,F,64008,Diabetes
+Malian L Valez,79,F,14842,Sinus Infection
+Rileya Y Cann,50,F,35612,Strep Throat
+Lennor T Maring,66,M,35001,Sinus Infection
+Brayson F Aguirreal,75,M,18436,Migraine
+Matian R Frennan,47,M,62867,Ear Infection
+Mylen H Mortez,92,M,36147,Pneumonia
+Emoralda P Hailey,66,F,74219,Migraine
+Eiley V Arrong,26,F,52499,Influenza
+Xandro O Brownsen,72,M,38254,Lung Cancer
+Itzaya K Weaves,18,F,18404,Sinus Infection
+Maximon U Granton,91,M,29044,Migraine
+Kartis S Ericks,32,M,48281,Lung Cancer
+Idrick F Guevarr,13,M,37846,Influenza
+Virgina G Contersen,22,F,58584,Sinus Infection
+Hallissa W Robert,39,F,39989,Migraine
+Lenner E Fernan,13,M,29079,Lung Cancer
+Elyson F Sandez,88,F,24426,Bronchitis
+Sarin U Lyncher,18,F,22266,Sinus Infection
+Glora J Donovak,31,F,22844,Pneumonia
+Emilip I Michoa,8,M,32086,Ear Infection
+Callia H Powe,56,F,27649,Heart Disease
+Jeric C Shers,69,M,48766,Lung Cancer
+Jonardo H Caine,40,M,57816,Migraine
+Virgia P Hartin,16,F,14956,Migraine
+Dallah F Elline,96,M,61282,Pneumonia
+Ryleya Q Evers,98,F,28923,Strep Throat
+Madia Q Butlers,54,F,17903,Pneumonia
+Marvey K Stane,84,M,26319,Diabetes
+Fisha B Mullon,89,M,46015,Lung Cancer
+Jamers V Guerry,92,M,17388,Influenza
+Liviana W Bowell,69,F,31063,Influenza
+Belly A Solon,72,F,23057,Heart Disease
+Katelle N Mullock,6,F,17826,Asthma
+Felip I Caldwin,18,M,30794,Bronchitis
+Melilah O Wyatton,4,F,74650,Influenza
+Alicah J Merce,49,F,73418,Migraine
+Marlei D Mill,39,F,24847,Diabetes
+Jamilee B Campson,72,F,72653,Bronchitis
+Muham X Salins,18,M,16905,Diabetes
+Dari M Farlson,2,M,29453,Sinus Infection
+Brie P Port,18,F,14250,Lung Cancer
+Fatie C Richan,39,F,60135,Diabetes
+Gordan V McKent,44,M,65117,Strep Throat
+Emila B Ventin,77,F,72155,Diabetes
+Adon D Olivan,61,M,10517,Pneumonia
+Aminey I Clementle,45,F,35287,Heart Disease
+Ryden L Quinnell,54,M,18120,Sinus Infection
+Haylina P Stuarez,39,F,23455,Bronchitis
+Kenniel M Barres,5,M,32219,Asthma
+Ronardo G Cooker,89,M,20285,Asthma
+Keator K Fullo,34,M,31845,Influenza
+Jermo Y Coron,96,M,53159,Bronchitis
+Gavion G Zavarez,97,M,10156,Bronchitis
+Hallow W Bucker,36,F,11954,Migraine
+Zarie K Spard,67,F,31562,Lung Cancer
+Felio U Novantes,78,M,40844,Strep Throat
+Louiel D Jennis,95,M,22255,Strep Throat
+Skylas E Herrin,79,M,30988,Diabetes
+Kyrice N Avala,48,M,16547,Influenza
+Coling O Sampbell,34,M,38746,Pneumonia
+Belene E Orter,79,F,59609,Pneumonia
+Madaline A Corman,19,F,67280,Ear Infection
+Giden R Sherd,16,M,52483,Sinus Infection
+Aaraver N Manner,89,M,43494,Asthma
+Quinco Z Khand,11,M,48121,Heart Disease
+Rebe W Weston,97,F,18587,Sinus Infection
+Sullip I Waship,38,M,53397,Asthma
+Arabeth W Mullis,43,F,50748,Heart Disease
+Eduard L Corong,66,M,31929,Bronchitis
+Johany F Scharpence,18,F,35158,Diabetes
+Canael Q Wester,4,M,42027,Asthma
+Azari Y Butley,82,M,45590,Bronchitis
+Mathane W Wards,8,M,44410,Asthma
+Boonel W Montos,17,M,75180,Heart Disease
+Maven V Watthews,12,M,57144,Heart Disease
+Ellip X Connell,13,M,40551,Ear Infection
+Ivangel U Bensley,22,F,11635,Heart Disease
+Ridger B Fross,96,M,43487,Asthma
+Graci I Torrish,1,F,71900,Influenza
+Kalle G Villo,4,F,33692,Ear Infection
+Danie M Blain,61,F,13292,Diabetes
+Sanie E Kerray,3,F,25500,Pneumonia
+Vanceton X Ellier,17,M,62881,Bronchitis
+Milee U Ortin,20,F,44824,Migraine
+Marli J Connett,79,F,56600,Influenza
+Adrigo Q Butle,14,M,39655,Strep Throat
+Jaylana A Brancock,67,F,22953,Influenza
+Laily N Beillo,92,F,32243,Asthma
+Miriah U Odonnelly,33,F,40991,Diabetes
+Angelicia V Morrell,86,F,60598,Bronchitis
+Austian B Bake,34,M,43061,Sinus Infection
+Joaquie G Palazquez,58,M,65186,Asthma
+Gali N Morgas,67,F,73483,Pneumonia
+Vanesi U Livins,32,F,39022,Lung Cancer
+Jaycenzo U Chard,51,M,38832,Pneumonia
+Kennis E Barrero,19,M,30136,Lung Cancer
+Heleigh O Carpence,84,F,17489,Sinus Infection
+Ellia G Bendrix,74,F,64199,Asthma
+Katian C Marince,50,F,17041,Sinus Infection
+Carlow H Brow,42,F,53487,Sinus Infection
+Lenna K Fitzgerson,91,F,66101,Migraine
+Aylar I Holmer,63,F,38930,Ear Infection
+Rosaline O Navalazar,51,F,61173,Diabetes
+Brentin A Mirander,99,M,46382,Migraine
+Mathan G Giley,5,M,47567,Sinus Infection
+Andris H Schward,2,M,30833,Asthma
+Jurni Q Richo,62,F,73364,Strep Throat
+Lachariah I Robb,81,M,50354,Diabetes
+Caid D Bravilark,10,M,36046,Influenza
+Vivie P Whitez,96,F,59549,Heart Disease
+Danni P Poncer,64,M,46909,Migraine
+Jolet W Hardner,16,F,72321,Diabetes
+Santine N McCarsh,15,M,65411,Migraine
+Selentine O Garcias,83,F,25106,Ear Infection
+Uriano Y Estron,39,M,60768,Influenza
+Hall X Fullison,56,F,45847,Pneumonia
+Collon L River,61,M,63317,Lung Cancer
+Yamie M Herreal,39,F,52076,Bronchitis
+Elizabelle B Olivas,11,F,27070,Lung Cancer
+Caliya N Ramson,76,F,35621,Ear Infection
+Ellin R Bravis,49,M,42782,Influenza
+Calline K Hebertson,32,F,18619,Lung Cancer
+Bosto R Clair,50,M,72644,Ear Infection
+Harmona E Harry,56,F,43892,Asthma
+Valeya Z Bran,36,F,49361,Pneumonia
+Thad S Prick,26,M,35868,Lung Cancer
+Asper L Barrez,86,F,65267,Heart Disease
+Mileen F Mass,78,F,43034,Diabetes
+Kyles B Pala,65,M,58120,Strep Throat
+Rock R Rander,95,M,58193,Strep Throat
+Nalaysia K Escobson,37,F,15167,Lung Cancer
+Sienne K Pher,17,F,30936,Lung Cancer
+Kington D Jarvey,47,M,10024,Bronchitis
+Howan Z Brada,79,M,54093,Diabetes
+Fredo Y Montrell,25,M,31997,Sinus Infection
+Elliope A Lamberson,31,F,44508,Bronchitis
+Tatumn E Guevas,42,F,68778,Ear Infection
+Dakob U Barro,100,M,45222,Migraine
+Abdie H Ballen,15,M,29927,Ear Infection
+Harlott K Cames,63,F,16340,Migraine
+Elison Q Pittle,99,F,57316,Migraine
+Milla U Georgan,76,F,51602,Diabetes
+Baylen Q Trand,87,M,42274,Heart Disease
+Harlie K Winterson,86,F,53378,Ear Infection
+Pearley D Kochroe,69,F,33448,Ear Infection
+Halla W Atkinn,18,F,28122,Ear Infection
+Erikaely A Turns,19,F,72056,Heart Disease
+Ameline S Nicho,99,F,23440,Sinus Infection
+Amarian F Lovery,14,M,61324,Influenza
+Merenity Y Schard,26,F,51399,Migraine
+Andia D Stoker,86,F,10593,Migraine
+Celenesi D Marker,23,F,23185,Lung Cancer
+Raela O Gaine,85,F,59159,Pneumonia
+Aila A Bents,98,F,20104,Sinus Infection
+Nicky F Obriedman,79,M,42979,Migraine
+Aver H Moyerson,92,F,24660,Sinus Infection
+Konner W Melence,29,M,11499,Sinus Infection
+Quentino Q Rochardy,16,M,28385,Asthma
+Aleese G Hartz,14,F,43427,Asthma
+Westo S Menderon,83,M,39937,Ear Infection
+Estrida Q Hartes,23,F,14975,Bronchitis
+Braylo M Powery,14,M,54717,Migraine
+Bentino Y Callers,34,M,69405,Lung Cancer
+Dwayn V Genton,26,M,21623,Influenza
+Joshe V Sherra,34,M,55129,Ear Infection
+Adeleigh C Gilmora,77,F,11791,Asthma
+Vivia I Collish,39,F,69313,Heart Disease
+Remiah W Riverez,60,M,14752,Influenza
+Millow T Hayder,42,F,26020,Asthma
+Malake C Yatel,11,M,60698,Influenza
+Emiloh M McCullis,4,M,58599,Strep Throat
+Santin W Burner,43,M,33412,Asthma
+Daminik Q Cher,86,M,22142,Sinus Infection
+Korian X Shephens,86,F,59807,Lung Cancer
+Brocky P Ochols,28,M,54842,Influenza
+Kendre X Morandez,7,M,33800,Bronchitis
+Jamed A Willarr,27,M,35912,Sinus Infection
+Sydne L McLeach,37,F,53420,Lung Cancer
+Brandy Y Myer,91,M,56337,Bronchitis
+Jonar R McCarte,42,M,17158,Diabetes
+Abrahir E Rochran,93,M,38646,Heart Disease
+Armanuelz E Patter,25,M,21663,Asthma
+Zairo D Woodman,15,M,66727,Sinus Infection
+Augustan E Farr,22,M,74080,Pneumonia
+Talina N Townings,37,F,39028,Diabetes
+Jolin M McGuirez,37,F,20702,Diabetes
+Cullas Y Faul,20,M,15005,Heart Disease
+Claret I Roger,95,F,63433,Bronchitis
+Guillin S Hard,25,M,52392,Heart Disease
+Alliot M Cervans,6,F,66894,Migraine
+Zariam J Golds,78,F,12106,Diabetes
+Kaiyah G Owensen,98,F,15612,Sinus Infection
+Wall N Villiott,62,M,35104,Influenza
+Xand E Flementes,67,M,44693,Pneumonia
+Lorelyn J Trander,13,F,53914,Heart Disease
+Holla T Daughes,20,F,11175,Lung Cancer
+Rogel V Wallan,74,M,28244,Asthma
+Henly V Kerra,50,F,37020,Influenza
+Alian S Hanch,95,F,56460,Strep Throat
+Ellian Y Rang,4,M,31454,Asthma
+Everley F Harreno,8,F,45913,Bronchitis
+Nicolet A Channis,70,F,70578,Sinus Infection
+Raqueli Q Bridge,24,F,11982,Sinus Infection
+Jacquel M Copez,5,F,43813,Asthma
+Francy D Jeffey,18,F,56077,Asthma
+Zani Q Gillo,19,F,62687,Pneumonia
+Kamie C Corris,53,F,39443,Asthma
+Camiley Z Estero,9,F,66633,Pneumonia
+Micar A Buchard,77,M,68644,Bronchitis
+Alexand D Esters,76,M,65797,Diabetes
+Deand M Rosa,49,M,31081,Lung Cancer
+Chasey N Zhannor,46,M,16324,Bronchitis
+Zayla X Khana,86,F,33800,Sinus Infection
+Reyant C McIntos,82,M,21711,Ear Infection
+Langel Q Manna,95,M,30916,Ear Infection
+Leander M Woodwartley,93,M,13351,Strep Throat
+Reneston W Beltrane,18,M,31061,Pneumonia
+Jere A Herreno,27,M,26899,Lung Cancer
+Emmara I Kell,36,F,52246,Diabetes
+Maximilio L Breno,71,M,61470,Sinus Infection
+Liberly L Fran,5,F,49704,Heart Disease
+Madence Y Mosephen,96,F,23820,Ear Infection
+Jerick O Harpence,48,M,60200,Sinus Infection
+Miriana E Hoovery,12,F,11250,Influenza
+Callor W Dickman,100,F,57636,Pneumonia
+Novanna I McCorman,53,F,39879,Sinus Infection
+Areline L Spent,94,F,38972,Sinus Infection
+Itzayah J Terrin,12,F,36451,Influenza
+Augusticen S Porters,9,M,75143,Pneumonia
+Ronny A Mayers,40,M,40018,Influenza
+Daisie L McMillo,38,F,16149,Ear Infection
+Hailyn O Rowelly,85,F,30590,Pneumonia
+Kennon L Abbotts,96,M,44528,Influenza
+Aryam I Kramirez,76,F,23639,Diabetes
+Ryline X Garroll,45,F,35564,Ear Infection
+Tateo F Barnero,30,M,59321,Migraine
+Guada D Romas,67,F,40196,Pneumonia
+Dani Y Coster,5,M,63323,Bronchitis
+Lawrencer R Jamerman,20,M,44384,Migraine
+Bradlermo Q McCoron,37,M,45156,Ear Infection
+Houstiel C Scotter,34,M,49501,Sinus Infection
+Paisyn D Staneda,68,F,24810,Ear Infection
+Aurenity M Donado,16,F,61756,Heart Disease
+Violette D Mayne,22,F,66631,Heart Disease
+Naye O Stanan,6,F,48611,Pneumonia
+Richo U Roacho,82,M,17610,Sinus Infection
+Bayleigh M Speards,93,F,40401,Heart Disease
+Veralda L McDowe,17,F,38231,Diabetes
+Aurella G Sala,45,F,17499,Sinus Infection
+Harrennegan O Guerrell,90,M,48509,Ear Infection
+Lorenix W Sanda,10,F,74464,Asthma
+Dall K Mulliams,2,M,59508,Heart Disease
+Darry K Barrown,83,M,69372,Heart Disease
+Alanie I Hullier,94,F,45553,Ear Infection
+Shepher Z Sandley,34,M,56727,Bronchitis
+Adrick V Padillon,74,M,19187,Lung Cancer
+Kamilee P Juartin,34,F,13050,Ear Infection
+Steviennox S Langel,89,F,21914,Ear Infection
+Lacelyn T Blanch,40,F,61503,Diabetes
+Micho W Heberty,47,M,31252,Ear Infection
+Chard P Bearson,75,M,19073,Influenza
+Zakari F Hebers,83,M,25830,Bronchitis
+Richael L Doughn,37,M,43439,Diabetes
+Samison R Andriggs,95,M,29881,Bronchitis
+Tyle K Smittman,53,M,25552,Diabetes
+Bentin J Youn,9,M,48432,Ear Infection
+Kend U Mullo,15,M,52692,Influenza
+Brayd A McCantu,67,M,45136,Pneumonia
+Lisabelle Z Fullock,76,F,25086,Influenza
+Dalter M Phang,50,M,26801,Asthma
+Everick T Richael,48,M,43898,Pneumonia
+Olivere P Smitt,79,M,49750,Pneumonia
+Mate B Anthones,68,M,16389,Migraine
+Julias M Gutierry,66,M,70800,Diabetes
+Jarederson Z Montrera,68,M,59692,Bronchitis
+Daniyah R Elliver,8,F,25276,Migraine
+Gradler C Popela,4,M,26306,Diabetes
+Clary P Estro,67,F,55186,Ear Infection
+Lyriel F Huero,81,M,64578,Diabetes
+Clar D Jamer,15,F,29621,Ear Infection
+Luelle W Walley,61,F,64846,Migraine
+Promi E Garritt,74,F,23736,Diabetes
+Daler D Fish,18,F,11375,Strep Throat
+Mabelle E Gordan,17,F,58453,Heart Disease
+Maddeus A Galina,69,M,54863,Influenza
+Kiar L Hillock,55,F,35202,Heart Disease
+Estelyn X Higgs,16,F,71005,Influenza
+Alanel Z Hodgers,34,F,68315,Heart Disease
+Kennox H Danields,33,F,71057,Sinus Infection
+Jessa Q Henders,27,F,15273,Asthma
+Eviena T Carton,52,F,39384,Pneumonia
+Marya P Bowenson,31,F,46236,Diabetes
+Jalina T Edwarte,85,F,73269,Pneumonia
+Elene H Quintane,18,F,74967,Pneumonia
+Lachlando Z Hendrick,79,M,52891,Bronchitis
+Marter O Saunder,43,F,14025,Influenza
+Azaristol B Ibar,76,F,38835,Bronchitis
+Jesis I Wilker,16,M,63004,Diabetes
+Nicolm V Sancheco,25,M,51516,Migraine
+Adleigh G Melez,60,F,12638,Pneumonia
+Annifer D Barbers,35,F,73576,Asthma
+Sutto F Rowler,70,M,58836,Pneumonia
+Skylen C Harvis,29,M,50527,Strep Throat
+Arie X Nortiz,52,F,38249,Lung Cancer
+Hayla Y Camach,46,F,49867,Influenza
+Kamed F Harton,54,M,73612,Lung Cancer
+Phillian S Collo,91,M,63183,Lung Cancer
+Georgan Y Hopkinson,48,M,14803,Lung Cancer
+Amariyah I McCannor,38,F,30840,Influenza
+Kalaysia M Balden,19,F,57036,Asthma
+Francenton X Delan,49,M,15151,Bronchitis
+Jenson C Davera,45,M,38692,Pneumonia
+Claia S Weberson,93,F,32987,Heart Disease
+Veroni W Cannett,65,F,56410,Influenza
+Forey H Contero,89,M,55457,Strep Throat
+Ronidan Z Pooley,68,M,44442,Strep Throat
+Fishop N Farles,39,M,64313,Bronchitis
+Bren Q Alvan,99,M,65550,Heart Disease
+Ericianna R Schneide,61,F,17400,Bronchitis
+Beatric V Bentes,3,F,23863,Bronchitis
+Davia Q Pollanc,4,F,47019,Migraine
+Blain W Hayderson,8,M,40389,Migraine
+Lenatal J Coffer,6,F,45751,Bronchitis
+Daric D Huerty,76,M,56999,Lung Cancer
+Penna K Peard,24,F,64889,Ear Infection
+Kris M Cord,72,M,29530,Migraine
+Madela L Arnolds,8,F,24803,Bronchitis
+Nalaren T McCantoya,7,F,65236,Diabetes
+Orlan F Parrea,81,M,12730,Lung Cancer
+Kyrien G Tyle,42,M,11096,Strep Throat
+Zavis G Sheller,8,M,64259,Lung Cancer
+Kimberty Y Reevedo,88,F,59830,Ear Infection
+Landa T Contgomez,40,F,65062,Bronchitis
+Waden V Salina,39,M,25291,Heart Disease
+Demine G Espark,20,F,31547,Ear Infection
+Carlei S Castian,15,F,15787,Heart Disease
+Thias T Norrea,27,M,54269,Asthma
+Jadaley X Clarks,89,F,30127,Influenza
+Larrest X Ramora,47,M,59488,Diabetes
+Alexi Y Sant,72,F,65586,Sinus Infection
+Vincen H Pacher,41,M,62976,Diabetes
+Silandre R Fleman,68,M,33150,Heart Disease
+Grayan Y Hender,19,M,66239,Strep Throat
+Madelen J Blacia,73,F,67970,Pneumonia
+Barren Q Bisher,66,M,28417,Strep Throat
+Reginia D Bowe,59,F,45880,Migraine
+Valel S Wyatts,55,M,45300,Ear Infection
+Azariana G Herra,92,F,21866,Pneumonia
+Made B Caldez,6,F,68147,Migraine
+Benic P Lindolph,45,M,56327,Influenza
+Zaril A Hugherry,45,F,64899,Diabetes
+Augustina R Gentos,21,F,66767,Migraine
+Dyland U Herris,51,M,68971,Ear Infection
+Renedict P McCarles,18,M,25529,Bronchitis
+Brison W Sparza,19,F,52210,Bronchitis
+Naomine F Kella,98,F,67266,Bronchitis
+Brenni V Willack,24,M,69329,Pneumonia
+Cassand I Herreross,10,M,62370,Lung Cancer
+Killer Q Mort,88,M,48060,Bronchitis
+Adleign V Hintoya,43,F,57780,Bronchitis
+Ishawn Z Wyatthews,96,M,25932,Asthma
+Ronnor U Figuez,88,M,66971,Diabetes
+Emilian G Gomero,32,M,32265,Pneumonia
+Kamira O Bullis,32,F,21729,Migraine
+Ster S Escobs,27,M,33822,Pneumonia
+Allandro Q Larady,58,M,49567,Strep Throat
+Nasiah L Moralez,58,M,54094,Asthma
+Elaide Y Dick,91,F,34620,Heart Disease
+Kennon Z Cohens,49,F,20780,Strep Throat
+Bent I Dona,44,M,32833,Ear Infection
+Amarian X Ellips,22,F,36134,Diabetes
+Benesis L Hayna,51,M,54898,Bronchitis
+Rilee U Pines,69,F,62050,Heart Disease
+Valent H Matton,100,M,63668,Influenza
+Lorey W McCard,94,M,44930,Lung Cancer
+Lyler L Flowe,67,M,42759,Migraine
+Kalie V Reilles,58,F,23665,Ear Infection
+Zavid X Dicks,15,M,21125,Lung Cancer
+Viole B Litts,84,F,13224,Migraine
+Sani W Naval,89,F,36536,Diabetes
+Landy S Padiller,68,M,51426,Strep Throat
+Kenda P Tuckley,30,F,25432,Migraine
+Milas K Randers,64,M,44089,Strep Throat
+Benix W Warnett,69,M,54157,Diabetes
+Cassan T Webert,62,M,58509,Sinus Infection
+Lorenia Y Warre,33,F,65164,Influenza
+Mali F Cleman,34,F,25484,Ear Infection
+Armaint S Burnes,49,M,64155,Sinus Infection
+Rosalina I Pricks,38,F,26171,Heart Disease
+Malace X Malos,95,M,64773,Sinus Infection
+Haisleya C Micho,71,F,58683,Pneumonia
+Jamery V Bravenson,3,M,17265,Bronchitis
+Biana C Hoffey,15,F,57923,Bronchitis
+Maver J Every,65,M,31028,Ear Infection
+Roward V Burker,33,M,50615,Asthma
+Warrett L Morald,55,M,47229,Heart Disease
+Rolaine J McMillier,12,M,63914,Ear Infection
+Alory I Roberty,57,F,61389,Asthma
+Victoriah Y Middley,14,F,16855,Lung Cancer
+Fernan A Khang,99,M,68570,Sinus Infection
+Willy C Calds,16,F,42065,Bronchitis
+Francen O Armstro,67,M,42437,Bronchitis
+Lillor X Arron,80,F,74024,Ear Infection
+Aylie J Fernandley,78,F,40198,Sinus Infection
+Caden Y Espinoz,28,F,64434,Diabetes
+Jani K Cummerona,69,F,62336,Migraine
+Sorendan A Hernard,75,M,28400,Sinus Infection
+Siera V Brancia,67,F,43770,Pneumonia
+Laina T Chris,59,F,11639,Heart Disease
+Allia L Gatel,95,F,16497,Heart Disease
+Esper C Glence,77,F,64490,Ear Infection
+Juel R Fostes,80,M,58896,Asthma
+Zechard R Romer,21,M,15181,Asthma
+Joella A Lindo,96,F,22497,Pneumonia
+Zakarius K Silvan,81,M,48041,Lung Cancer
+Stephia W Veler,74,F,52208,Heart Disease
+Emberty U Moralter,89,F,29636,Heart Disease
+Gemmaly E Torrown,42,F,13433,Asthma
+Tylen G Chaves,19,M,20024,Heart Disease
+Hollani T Massell,60,F,29338,Lung Cancer
+Since P Bautis,80,M,67333,Sinus Infection
+Frant U Broctor,2,M,56298,Asthma
+Justine M Bent,67,M,41476,Asthma
+Remias H Dickley,32,M,42133,Pneumonia
+Bridge M Martes,91,M,53109,Pneumonia
+Bailah T Mooney,28,F,42980,Migraine
+Khaliyah Y McMiles,67,F,44926,Bronchitis
+Harling C Hickley,10,M,69700,Ear Infection
+Ashlee K Ellish,64,F,41148,Lung Cancer
+Cather Q Kniga,43,F,60607,Influenza
+Adelen E Allerson,8,F,14081,Pneumonia
+Rosalynn K Kerris,85,F,72817,Heart Disease
+Margan A Castrong,52,F,18233,Diabetes
+Joline V Spenter,47,F,42755,Migraine
+Kolt H Ballan,100,M,39874,Heart Disease
+Sadilynn G Moodson,96,F,70383,Migraine
+Davin S Suller,2,M,26205,Sinus Infection
+Malanelle R Moralden,94,F,59392,Influenza
+Armain I Bester,97,M,48800,Heart Disease
+Irisson Z Hollis,57,F,67008,Heart Disease
+Kobert J Gilberson,15,M,10764,Heart Disease
+Enrik Q Sand,24,M,51161,Bronchitis
+Joaney Z Smallard,58,F,38500,Pneumonia
+Fore U Veleonald,83,M,40671,Ear Infection
+Marson K Mannan,27,M,12539,Heart Disease
+Trinley M Orte,36,F,22388,Asthma
+Holliah J Bucklandt,3,F,54256,Migraine
+Jamiah M Blevino,19,M,36461,Diabetes
+Charley U Fuentura,69,M,34052,Ear Infection
+Hailea L Guerta,59,F,12559,Pneumonia
+Dalla U Fergers,42,F,27609,Heart Disease
+Malan K Berguson,37,F,49093,Influenza
+Kyley I Velar,75,F,29080,Asthma
+Leanor W McCald,8,F,74537,Bronchitis
+Jaelaia D Harr,20,F,60512,Diabetes
+Leonin Y Hollaro,46,M,68878,Diabetes
+Colter N Rollard,55,M,61885,Pneumonia
+Kier U Macia,50,M,57566,Bronchitis
+Matima Z Kentine,81,F,33935,Influenza
+Alejand G Frazie,21,F,11264,Asthma
+Anah V Shorn,70,F,20658,Migraine
+Damond M Thortin,52,M,42691,Ear Infection
+Kaylah A Herrison,39,F,64263,Influenza
+Marcell Y Hawkinn,86,M,62854,Bronchitis
+Halenevie Z Bernandt,46,F,11854,Sinus Infection
+Trison O Cochan,92,M,27567,Diabetes
+Brina Z Cobbins,44,F,39456,Ear Infection
+Andric P Hayer,85,M,73905,Pneumonia
+Estrelani O Vince,61,F,70763,Lung Cancer
+Aubrina H Hodger,3,F,12654,Diabetes
+Delice K Steves,99,F,42214,Asthma
+Jeron Y Hogana,40,M,22397,Diabetes
+Celen B Vaugham,17,F,48344,Influenza
+Philian V Moralds,61,M,13027,Sinus Infection
+Valeb Y Gards,15,M,21737,Influenza
+Lean N Batero,89,M,74758,Migraine
+Addisy U Draker,17,F,27638,Asthma
+Vivanni P Miran,97,M,16820,Bronchitis
+Fabir O Warez,89,M,50774,Strep Throat
+Chelby L Lander,21,F,18702,Pneumonia
+Valen T Harrilly,72,F,13951,Influenza
+Estheri U Osbornett,15,F,37202,Diabetes
+Bran V Ston,16,M,25938,Lung Cancer
+Adalupe I Sampos,49,F,61367,Bronchitis
+Marlan Z Stantiago,61,M,66223,Migraine
+Landley N Bentu,64,M,42904,Migraine
+Emmad P Stuare,56,M,55168,Influenza
+Areliana P Gillock,75,F,47580,Strep Throat
+Jessidy T Hayders,17,F,52329,Heart Disease
+Mauric H Hensen,40,M,12952,Lung Cancer
+Culles C Dennan,51,M,39551,Sinus Infection
+Alyse P Maddenas,53,F,70170,Lung Cancer
+Samien T Gonzaley,89,M,20805,Asthma
+Pariam X Wriguez,29,F,58918,Asthma
+Baylo I Mulley,42,M,54041,Sinus Infection
+Terrett S Trujills,22,M,32768,Strep Throat
+Adall Z Leston,70,F,52958,Asthma
+Javin H Reill,35,M,64595,Bronchitis
+Killen A Millar,1,M,72473,Strep Throat
+Harvin P Novan,10,M,34554,Influenza
+Zandre F Terristes,43,M,21214,Sinus Infection
+Karedo W Hernand,52,M,39816,Heart Disease
+Britta T Michmon,20,F,10085,Ear Infection
+Alexie X Schneil,89,F,23342,Pneumonia
+Draker A Lover,14,M,29648,Influenza
+Brank G Benner,61,M,20208,Sinus Infection
+Domin Z Kocha,62,M,60101,Heart Disease
+Amanthia A Gravo,75,F,49784,Diabetes
+Damir A Chens,58,M,11006,Strep Throat
+Briena K Vincer,8,F,26429,Heart Disease
+Reesi E Chamb,75,F,31055,Strep Throat
+Elea Y McFarley,23,F,30728,Diabetes
+Ramone D Brand,38,F,34455,Influenza
+Josef S Beller,32,M,64567,Pneumonia
+Evanny G Edwarter,99,M,35866,Migraine
+Meline Y Reynard,3,F,18834,Heart Disease
+Foren R Clementrera,79,M,65792,Heart Disease
+Keanuelz S Cran,56,M,21135,Asthma
+Kennaler H Conney,3,F,68625,Strep Throat
+Jerek I Brade,51,M,14526,Diabetes
+Jedictor A Stevedo,14,M,13994,Sinus Infection
+Henrique O Cunnings,74,M,35915,Pneumonia
+Steph A Flett,10,M,60978,Bronchitis
+Madall Y Ortegas,43,F,25232,Strep Throat
+Tade L Sando,95,M,45969,Heart Disease
+Morge E Morrera,71,M,51133,Strep Throat
+Dorincy D Prin,77,M,71122,Ear Infection
+Jillia J Caineda,39,F,39687,Pneumonia
+Mariannah B Copela,86,F,43819,Pneumonia
+Guillen O Moone,91,M,70196,Ear Infection
+Mordan O Shell,31,M,52062,Diabetes
+Fayelison C Huangel,55,F,37407,Influenza
+Kayden M Bara,51,F,35492,Lung Cancer
+Alin S Salack,62,F,73972,Bronchitis
+Erinley D Oconnon,100,F,48810,Asthma
+Jaycen O Juartz,41,M,24281,Asthma
+Damilian G Acost,19,M,62080,Asthma
+Taylo N Odonado,31,M,56050,Pneumonia
+Taylah T Nortis,27,F,53475,Asthma
+Derry K Cartin,99,M,70890,Heart Disease
+Auren Y Meado,50,F,73906,Ear Infection
+Chanco T Clins,43,M,74652,Sinus Infection
+Javid L Clemene,26,M,64252,Strep Throat
+Eilee X Cros,17,F,58765,Influenza
+Andyn S Heathis,79,M,50972,Lung Cancer
+Celena V Canton,67,F,54870,Strep Throat
+Dennor B Lest,43,M,44830,Ear Infection
+Rylena E Markers,4,F,27520,Lung Cancer
+Larres R Hine,84,M,46314,Ear Infection
+Harlet V Larsh,59,F,26670,Influenza
+Helestiny B Fishop,17,F,59060,Influenza
+Fletchell F Mitchelps,52,M,35323,Heart Disease
+Samiley G Aversen,17,F,40699,Strep Throat
+Willen E Huberty,33,M,26786,Diabetes
+Abrahim U McFarrow,72,M,64319,Lung Cancer
+Janey Z Traves,96,F,35654,Migraine
+Nalayah Q Krames,5,F,37572,Bronchitis
+Dela P Morroyo,55,F,29907,Strep Throat
+Tobian P Beckers,62,M,34120,Diabetes
+Mitcher F Venton,94,M,68306,Heart Disease
+Maleen O Daugherd,6,F,13936,Diabetes
+Zachill B Rogera,24,M,68258,Bronchitis
+Gabrien P Cantry,92,M,17545,Sinus Infection
+Kenner C Sawyerson,89,M,28955,Lung Cancer
+Mckinlee A Hanc,29,F,34503,Bronchitis
+Jermanuel H Robers,42,M,37348,Asthma
+Ronah N Gentes,27,M,12042,Influenza
+Khalik F Schan,54,M,58474,Migraine
+Camir G Jenson,3,M,53396,Bronchitis
+Johan Y Pughn,75,F,35536,Influenza
+Donardo W Normick,28,M,73641,Heart Disease
+Charlet I Acostana,4,F,16656,Sinus Infection
+Emorah K Leona,41,F,62582,Strep Throat
+Bentine N Garris,44,M,72213,Migraine
+Jabarie D Mullips,13,M,26294,Heart Disease
+Maline D Lambers,64,F,36662,Influenza
+Alvaton M Zimmond,81,M,70771,Pneumonia
+Ramond J Peardy,47,M,54101,Influenza
+Vancis Y McDowen,12,M,14387,Pneumonia
+Xzavid R Daver,36,M,72467,Pneumonia
+Wyntha C Zamoran,58,F,20188,Influenza
+Callus D Heberts,70,M,58812,Heart Disease
+Omario O Harrez,63,M,51647,Ear Infection
+Graden B Pollandez,91,M,21354,Pneumonia
+Maisyn W Lawren,31,F,32687,Sinus Infection
+Alessac E Batel,88,M,27411,Strep Throat
+Maysen G Malon,96,M,49260,Diabetes
+Valey R Tannon,90,F,21152,Asthma
+Alinslee J Vaugherts,71,F,26011,Sinus Infection
+Ryant S Pacholson,29,M,28966,Sinus Infection
+Alorella P Roseph,81,F,70606,Influenza
+Leonald E Clar,64,M,22194,Strep Throat
+Patrius P Allivas,16,M,64565,Pneumonia
+Rolas Y Cervantu,65,M,16544,Ear Infection
+Harles V Brookes,83,M,16127,Ear Infection
+Nathley L Rochroeder,17,F,62033,Asthma
+Dallan E Heston,18,M,66040,Influenza
+Jasmina V Bernalds,31,F,73905,Bronchitis
+Becker U Odonnor,60,M,15844,Strep Throat
+Landall N Santant,25,M,41011,Lung Cancer
+Grahir K Lowell,67,M,34189,Strep Throat
+Madie J Fole,6,F,19168,Asthma
+Jareed Q Guerts,55,M,36287,Bronchitis
+Kylentin K Leonal,66,M,71779,Pneumonia
+Terren M More,87,M,67500,Heart Disease
+Kenly R Travidson,13,F,70553,Heart Disease
+Carolie L Ander,32,F,73895,Diabetes
+Ellani X Hullegos,9,F,56586,Heart Disease
+Delie K Ingramillo,60,F,59925,Strep Throat
+Zachari V Kramiller,78,M,48286,Sinus Infection
+Rylandon X Alliams,34,M,24777,Heart Disease
+Robe B Gilla,6,M,39772,Heart Disease
+Briah G Villes,32,M,24719,Influenza
+Laurela X Morgana,38,F,42794,Pneumonia
+Elia H Stepher,88,F,21227,Lung Cancer
+Austavo C Cannis,38,M,68055,Ear Infection
+Makari F Goody,10,M,71932,Strep Throat
+Aleen F Maldonnon,52,F,52838,Sinus Infection
+Gian E Flemenez,15,M,26301,Heart Disease
+Branco G Owenson,74,M,74856,Ear Infection
+Nick F Macios,52,M,68018,Pneumonia
+Maret H Websters,91,F,40487,Bronchitis
+Zacharius X Phell,91,M,56500,Bronchitis
+Quinner V Ellivan,69,M,22070,Ear Infection
+Ledge I Rodgess,43,M,61161,Heart Disease
+Drav I Marton,73,M,36012,Migraine
+Mohan K Willips,35,M,54991,Pneumonia
+Jadie J Laramin,95,M,67736,Asthma
+Ariar P Vanco,80,M,40221,Strep Throat
+Bisha I Kinney,53,M,25476,Heart Disease
+Estrel A Frenn,49,F,30860,Pneumonia
+Jamily I Kentosh,99,F,73262,Sinus Infection
+Milah D Collis,57,F,41303,Diabetes
+Zand E Anthon,26,M,27296,Heart Disease
+Lilloren B Carles,58,F,22063,Strep Throat
+Kamerson F Domings,4,M,44178,Lung Cancer
+Decken P Channon,32,M,52878,Migraine
+Kaire W Macdona,79,M,18308,Diabetes
+Davier G Morres,6,M,14879,Migraine
+Emman Y Niel,65,M,26166,Influenza
+Vadalyn G Padills,84,F,12071,Sinus Infection
+Zariya V Kruegera,17,F,65333,Ear Infection
