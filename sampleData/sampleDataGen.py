@@ -1,9 +1,9 @@
 #!/bin/python
 ##### ===========
 ##### Alex Tregub
-##### 2025-04-11
+##### 2025-04-12
 ##### Generates sample data according to in-file config / cmdline arguments?
-##### v1.0.1
+##### v1.0.2
 ##### ===========
 #### Imports
 import random as r
@@ -39,8 +39,8 @@ COLUMN_NAMES=["uid","name","age","gender","zip","disease"] # Keep order same, al
 
 
 ## Post-setup configuration
-if (MAX_MISMATCH == -1): MAX_MISMATCH = int(0.1*TARGET_DATA_SIZE) # Set to default 10%
 if (TARGET_DATA_SIZE == -1): TARGET_DATA_SIZE = 200_000 # Set to default 200k
+if (MAX_MISMATCH == -1): MAX_MISMATCH = int(0.1*TARGET_DATA_SIZE) # Set to default 10%
 
 
 
@@ -54,18 +54,24 @@ listDataset = []
 
 for uid in range(0,(MAX_MISMATCH+TARGET_DATA_SIZE)):
     row = [uid] 
+    first = ""
 
     # Full name string
     if r.random() < 0.5: 
-        first = maleNames.make_name()
+        
+        while (first == ""): # Continue generation attempts until name is formed. 
+            first = maleNames.make_name()
         gender = "M"
     else:
-        first = femaleNames.make_name()
+        while (first == ""):
+            first = femaleNames.make_name()
         gender = "F"
 
     second = r.choice(string.ascii_uppercase)
 
-    third = lastNames.make_name()
+    third = ""
+    while (third == ""):
+        third = lastNames.make_name()
 
     row.append(first+' '+second+' '+third)
 
