@@ -2,7 +2,7 @@ import pandas as pd
 
 #Extraction function to extract needed columns from dataframe
 def extractQI(data, QI):
-    return list(zip(data['ID'], data[QI]))
+    return list(zip(data['uid'], data[QI]))
 
 #function to calculate centroids
 def calCentroid(cluster):
@@ -97,5 +97,5 @@ def glutton(data, QI, k):
     for point in glutton:
       id, QIRange = point
       idToQI[id] = QIRange
-  data[QI] = data['ID'].map(idToQI)
+  data[QI] = data['uid'].map(idToQI)
   return data

@@ -1,4 +1,4 @@
-ID,Age,Gender,ZIP,Disease
+uid,age,gender,zip,disease
 1234,25,M,22345,Heart Disease
 2345,24,F,22347,Lung Cancer
 3456,23,M,22349,Flu
