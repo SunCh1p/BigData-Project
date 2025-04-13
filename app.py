@@ -34,14 +34,14 @@ def process():
         results = []
 
         for part in partitions:
-            age_range = f"[{part['Age'].min()} - {part['Age'].max()}]"
-            part['Age'] = age_range
+            age_range = f"[{part['age'].min()} - {part['age'].max()}]"
+            part['age'] = age_range
             results.append(part)
 
         result_df = pd.concat(results, ignore_index=True)
 
     elif algorithm == 'glutton':
-        result_df = glutton(df.copy(), 'Age', k)
+        result_df = glutton(df.copy(), 'age', k)
 
     else:
         return "Invalid algorithm selected."

@@ -1,4 +1,4 @@
-ID,Age,Gender,ZIP,Disease
+uid,age,gender,zip,disease
 4567,[20-25],M,34543,Flu
 3456,[20-25],M,22349,Flu
 2345,[20-25],F,22347,Lung Cancer
