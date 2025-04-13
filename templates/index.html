@@ -1,10 +1,31 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>K-Anonymity Tool</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script>
+    function handleFileUpload(event) {
+      const fileInput = event.target;
+      const file = fileInput.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const csvData = e.target.result;
+        const lines = csvData.split('\n');
+        const headers = lines[0].split(',');
+
+        const container = document.getElementById('qi-options');
+        container.innerHTML = '<label>Select Quasi-Identifiers:</label><br>';
+        headers.forEach(h => {
+          const checkbox = `<input type="checkbox" name="qis" value="${h.trim()}"> ${h.trim()}<br>`;
+          container.innerHTML += checkbox;
+        });
+      };
+      reader.readAsText(file);
+    }
+  </script>
 </head>
 <body>
   <h1>K-Anonymity Tool</h1>
@@ -14,7 +35,9 @@
     <input type="number" name="k" required min="1"><br><br>
 
     <label for="file">Upload CSV file:</label>
-    <input type="file" name="file" accept=".csv" required><br><br>
+    <input type="file" name="file" accept=".csv" required onchange="handleFileUpload(event)"><br><br>
+
+    <div id="qi-options"></div><br>
 
     <label for="algorithm">Select Algorithm:</label>
     <select name="algorithm" required>
@@ -24,8 +47,7 @@
 
     <button type="submit">Anonymize</button>
   </form>
-  <br>
-  <br>
+  <br><br>
 
   {% if table %}
   <h2>Anonymized Data:</h2>

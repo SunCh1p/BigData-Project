@@ -4,11 +4,11 @@ import os
 from werkzeug.utils import secure_filename
 from Mondrian import mondrian
 from glutton import glutton
+
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-
 
 @app.route('/', methods=['GET'])
 def index():
@@ -18,6 +18,7 @@ def index():
 def process():
     k = int(request.form['k'])
     algorithm = request.form['algorithm']
+    QIs = request.form.getlist('qis')
     file = request.files['file']
 
     if file.filename == '':
@@ -29,19 +30,23 @@ def process():
 
     df = pd.read_csv(filepath)
 
+    if not QIs:
+        return "No quasi-identifiers selected."
+
     if algorithm == 'mondrian':
-        partitions = mondrian(df.copy(), k)
+        if len(QIs) > 1:
+            return "Mondrian currently supports only one quasi-identifier."
+        partitions = mondrian(df.copy(), k, QIs[0])
         results = []
-
         for part in partitions:
-            age_range = f"[{part['Age'].min()} - {part['Age'].max()}]"
-            part['Age'] = age_range
+            col = QIs[0]
+            range_value = f"[{part[col].min()} - {part[col].max()}]"
+            part[col] = range_value
             results.append(part)
-
         result_df = pd.concat(results, ignore_index=True)
 
     elif algorithm == 'glutton':
-        result_df = glutton(df.copy(), 'Age', k)
+        result_df = glutton(df.copy(), QIs, k)
 
     else:
         return "Invalid algorithm selected."

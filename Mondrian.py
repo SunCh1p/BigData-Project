@@ -1,16 +1,13 @@
 #Mondrian algorithm
-def mondrian(data, k):
+def mondrian(data, k, qi):
     partition = []
     if len(data) <= 2 * k - 1:
         return [data]
-    #sort by the predefined quasidenfier 
-    data = data.sort_values(by=['Age'])
-    #define partition point
+    #sort by the given quasi-identifier
+    data = data.sort_values(by=[qi])
     mid = len(data) // 2
-    #split the sorted data left and right
     lhs = data[:mid]
     rhs = data[mid:]
-    #splits each half until k anonymity condition is met
-    partition.extend(mondrian(lhs, k))
-    partition.extend(mondrian(rhs, k))
+    partition.extend(mondrian(lhs, k, qi))
+    partition.extend(mondrian(rhs, k, qi))
     return partition

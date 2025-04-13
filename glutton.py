@@ -1,101 +1,69 @@
 import pandas as pd
 
-#Extraction function to extract needed columns from dataframe
-def extractQI(data, QI):
-    return list(zip(data['ID'], data[QI]))
+# Extraction function to extract needed columns from dataframe
+def extractQI(data, QIs):
+    return list(zip(data['ID'], data[QIs].values.tolist()))
 
-#function to calculate centroids
+# Function to calculate centroids for multiple QIs
 def calCentroid(cluster):
     n = len(cluster)
-    sum = 0
+    dim = len(cluster[0][1])
+    sums = [0] * dim
     for item in cluster:
-        sum += item[1]
-    return sum/n
+        for i in range(dim):
+            sums[i] += item[1][i]
+    return [s / n for s in sums]
 
-#greedy glutton algorithm - assuming extraction has already occurred
-#expected input data is list of pairs [[id, age], [id,age], .....]
-def glutton(data, QI, k):
-  #extract the column with the QI
-  data_to_sort = extractQI(data, QI)
-  
-  #sort the ages from smallest the largest
-  sorted_data = sorted(data_to_sort, key=lambda x: x[1])
+# Euclidean distance between vectors
+def euclidean_dist(p1, p2):
+    return sum((a - b) ** 2 for a, b in zip(p1, p2)) ** 0.5
 
-  #create a list of lists[[]] for result
-  resGluttons = []
+# Glutton algorithm supporting multiple QIs
+def glutton(data, QIs, k):
+    data_to_sort = extractQI(data, QIs)
+    sorted_data = sorted(data_to_sort, key=lambda x: x[1])
+    resGluttons = []
 
-  #add gluttons until sorted data is empty
-  while len(sorted_data) > 0:
-    #create the current glutton
-    glutton = []
+    while len(sorted_data) > 0:
+        glutton = []
+        glutton.append(sorted_data[0])
+        sorted_data.pop(0)
 
-    #get size of sorted data
-    size = len(sorted_data)
+        while len(glutton) < k and len(sorted_data) > 0:
+            gluttonCentroid = calCentroid(glutton)
+            closestItem = None
+            closestDist = float('inf')
+            for item in sorted_data:
+                dist = euclidean_dist(item[1], gluttonCentroid)
+                if dist < closestDist:
+                    closestItem = item
+                    closestDist = dist
+            glutton.append(closestItem)
+            sorted_data = [item for item in sorted_data if item[0] != closestItem[0]]
 
-    #feed data at that index to the glutton from the smallest index
-    glutton.append(sorted_data[0])
+        resGluttons.append(glutton)
 
-    #remove data at rIndex from sorted_data
-    sorted_data.pop(0)
+    if len(resGluttons) > 0 and len(resGluttons[-1]) < k:
+        lastGlutton = resGluttons.pop()
+        for point in lastGlutton:
+            resGluttons[-1].append(point)
 
-    #find k-1 nearest points forward if they exist using n^2 dumb approach
-    while len(glutton) < k and len(sorted_data) > 0:
-      #calculate centroid of glutton cluster
-      gluttonCentroid = calCentroid(glutton)
-      #find closest item to centroid 
-      closestItem = [-1,-1]
-      for item in sorted_data:
-        #compare item to closest item
-        #if closest item hasn't been filled yet, fill it
-        if closestItem[0] == -1 and closestItem[1] == -1:
-          closestItem = item
-          #continue to next iteration
-          continue
-        #otherwise compare distnace to glutton, if item is closer than closest item
-        #make that item the closest item
-        elif(abs(item[1]-gluttonCentroid) < abs(closestItem[1]-gluttonCentroid)):
-          closestItem = item
-      #the closest item to the glutton
-      glutton.append(closestItem)
-      #remove closest item from the data(dumb way)
-      sorted_data = [item for item in sorted_data if item[0] != closestItem[0]]
-    #append glutton to resGluttons
-    resGluttons.append(glutton)
-  #check the last glutton in resGluttons and redistribute if necessary
-  size = len(resGluttons)
-  if(size == 0):
-    return []
-  lastGlutton = resGluttons[size-1]
-  #if last glutton has points less than k
-  if(len(lastGlutton) < k):
-    resGluttons.pop()
-    #redistribute points in closest cluster
-    #get new size
-    size = len(resGluttons)
-    #distribute points to next max glutton
-    for point in lastGlutton:
-      resGluttons[size-1].append(point)
+    for i in range(len(resGluttons)):
+        glutton = resGluttons[i]
+        dim = len(glutton[0][1])
+        mins = [min(point[1][i] for point in glutton) for i in range(dim)]
+        maxs = [max(point[1][i] for point in glutton) for i in range(dim)]
+        ranges = [f"{mins[i]}-{maxs[i]}" for i in range(dim)]
+        for j in range(len(glutton)):
+            glutton[j] = (glutton[j][0], ranges)
 
-  #now that clustering is complete, anonymize the ages by using max and min
-  for i in range(len(resGluttons)):
-    #get current glutton
-    glutton = resGluttons[i]
-    size = len(glutton)
-    #calculate qi range to anonymize data
-    minQI = glutton[0][1]
-    maxQI = glutton[size - 1][1]
-    QIRange = f"{minQI}-{maxQI}"
-    #modify glutton with anonymized data
-    for j in range(size):
-      glutton[j] = (glutton[j][0], QIRange)
+    idToQI = {}
+    for glutton in resGluttons:
+        for point in glutton:
+            id, QIRanges = point
+            idToQI[id] = QIRanges
 
-  #take modified data from resGluttons and convert it back to a usable table in the format
-  #given by the data.csv file
-  #convert tuples to dictionary
-  idToQI = {}
-  for glutton in resGluttons:
-    for point in glutton:
-      id, QIRange = point
-      idToQI[id] = QIRange
-  data[QI] = data['ID'].map(idToQI)
-  return data
+    for i, QI in enumerate(QIs):
+        data[QI] = data['ID'].map(lambda x: idToQI[x][i])
+
+    return data
