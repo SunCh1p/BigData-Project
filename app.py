@@ -19,6 +19,7 @@ def process():
     k = int(request.form['k'])
     algorithm = request.form['algorithm']
     file = request.files['file']
+    outputPath = request.form['outpath']
 
     if file.filename == '':
         return "No file selected."
@@ -34,7 +35,7 @@ def process():
         results = []
 
         for part in partitions:
-            age_range = f"[{part['age'].min()} - {part['age'].max()}]"
+            age_range = f"{part['age'].min()}-{part['age'].max()}"
             part['age'] = age_range
             results.append(part)
 
@@ -47,6 +48,9 @@ def process():
         return "Invalid algorithm selected."
 
     table_html = result_df.to_html(classes='styled-table', index=False)
+    
+    result_df.to_csv(outputPath,index=False)
+
     return render_template("index.html", table=table_html)
 
 if __name__ == '__main__':
