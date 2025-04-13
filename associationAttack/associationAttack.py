@@ -3,7 +3,7 @@
 ##### Alex Tregub
 ##### 2025-04-13
 ##### Attempts to associate anonymized data with provided background knowledge. Assumes fixed data format,uids included
-##### v1.0.1
+##### v1.0.2
 ##### ===========
 #### Imports
 import pandas as pd
@@ -62,22 +62,44 @@ for index,targetUser in bkgdKnowledge.iterrows():
         #     continue # Not matched + not anonymized
 
         # New range-based application
-        if int(targetUser["age"]) != int(searchUser["age"]):
-            # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+        # if int(targetUser["age"]) != int(searchUser["age"]):
+        #     # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+        #     sampleRange = str(searchUser["age"]).split("-") # Split range string
+        #     if len(sampleRange) != 2: 
+        #         continue # If not a range, do not continue. Just not equal
+
+        #     if (targetUser["age"] < int(sampleRange[0])) or (targetUser["age"] > int(sampleRange[1])):
+        #         continue # Age out of range.
+
+        try: # Non-range
+            if int(targetUser["age"]) != int(searchUser["age"]):
+                continue
+        except: # Range-based
             sampleRange = str(searchUser["age"]).split("-") # Split range string
             if len(sampleRange) != 2: 
                 continue # If not a range, do not continue. Just not equal
 
             if (targetUser["age"] < int(sampleRange[0])) or (targetUser["age"] > int(sampleRange[1])):
-                continue # Age out of range.
+                continue # Age out of range
 
-        # Gender is not anonymized
-        if targetUser["gender"] != searchUser["gender"]:
+        # Gender 
+        if targetUser["gender"] != searchUser["gender"] and searchUser["gender"] != "discard":
             continue
 
         # Zip with range-based anonymization
-        if int(targetUser["zip"]) != int(searchUser["zip"]):
-            # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+        # if int(targetUser["zip"]) != int(searchUser["zip"]):
+        #     # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+        #     sampleRange = str(searchUser["zip"]).split("-") # Split range string
+        #     if len(sampleRange) != 2: 
+        #         continue # If not a range, do not continue. Just not equal
+
+        #     if (targetUser["zip"] < int(sampleRange[0])) or (targetUser["zip"] > int(sampleRange[1])):
+        #         continue # Out of range.
+
+        try: # Non-range
+            if int(targetUser["zip"]) != int(searchUser["zip"]):
+                continue
+        except:
             sampleRange = str(searchUser["zip"]).split("-") # Split range string
             if len(sampleRange) != 2: 
                 continue # If not a range, do not continue. Just not equal
