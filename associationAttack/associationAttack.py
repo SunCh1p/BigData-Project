@@ -46,20 +46,44 @@ for index,targetUser in bkgdKnowledge.iterrows():
     targetPotentialDisease = [] # Preps list for potential matches
 
     for sIndex,searchUser in anonData.iterrows(): # Get potential diseases
-        if type(searchUser["age"]) == int: # If not-anonymized...
-            if targetUser["age"] != searchUser["age"]: continue # DO NOT ADD
-        else: # NOTE: Anonymized as range list
-            if searchUser["age"] == "discard": # If anonymized via discarding
-                continue
-            if (searchUser["age"][0] > searchUser["age"]) or (searchUser["age"][1] < searchUser["age"]):
-                # eg. if search users age is out of range, discard
-                continue
+        # if type(searchUser["age"]) == int: # If not-anonymized...
+        #     if targetUser["age"] != searchUser["age"]: continue # DO NOT ADD
+        # else: # NOTE: Anonymized as range list
+        #     if searchUser["age"] == "discard": # If anonymized via discarding
+        #         continue
+        #     if (searchUser["age"][0] > searchUser["age"]) or (searchUser["age"][1] < searchUser["age"]):
+        #         # eg. if search users age is out of range, discard
+        #         continue
 
-        if searchUser["gender"] != targetUser["gender"] and searchUser["gender"] != "discard":
-            continue # Not matched + not anonymized
+        # if searchUser["gender"] != targetUser["gender"] and searchUser["gender"] != "discard":
+        #     continue # Not matched + not anonymized
 
-        if searchUser["zip"] != targetUser["zip"] and searchUser["zip"] != "discard":
-            continue # Not matched + not anonymized
+        # if searchUser["zip"] != targetUser["zip"] and searchUser["zip"] != "discard":
+        #     continue # Not matched + not anonymized
+
+        # New range-based application
+        if int(targetUser["age"]) != int(searchUser["age"]):
+            # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+            sampleRange = str(searchUser["age"]).split("-") # Split range string
+            if len(sampleRange) != 2: 
+                continue # If not a range, do not continue. Just not equal
+
+            if (targetUser["age"] < int(sampleRange[0])) or (targetUser["age"] > int(sampleRange[1])):
+                continue # Age out of range.
+
+        # Gender is not anonymized
+        if targetUser["gender"] != searchUser["gender"]:
+            continue
+
+        # Zip with range-based anonymization
+        if int(targetUser["zip"]) != int(searchUser["zip"]):
+            # Not directly equal, if not anonymized - discard. If anonymized but out of range, discard.
+            sampleRange = str(searchUser["zip"]).split("-") # Split range string
+            if len(sampleRange) != 2: 
+                continue # If not a range, do not continue. Just not equal
+
+            if (targetUser["zip"] < int(sampleRange[0])) or (targetUser["zip"] > int(sampleRange[1])):
+                continue # Out of range.
 
         # Else if not rejected:
         targetPotentialDisease.append(searchUser["disease"])
