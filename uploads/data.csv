@@ -7,4 +7,5 @@ ID,Age,Gender,ZIP,Disease
 6789,32,M,34537,Diabetes
 1357,34,F,55432,Heart Disease
 2468,33,F,55434,Diabetes
-1289,29,F,55436,Diabetes
+1289,29,F,55436,
+1444,38,M,33456,Lung Cancer

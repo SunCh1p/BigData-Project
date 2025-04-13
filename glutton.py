@@ -101,9 +101,3 @@ def glutton(data, QI, k):
       idToQI[id] = QIRange
   data[QI] = data['ID'].map(idToQI)
   return data
-
-####################################3
-#script
-data = pd.read_csv('data.csv')
-AnonymizedData = glutton(data, 'Age', 3)
-print(AnonymizedData)
