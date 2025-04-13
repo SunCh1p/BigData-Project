@@ -59,6 +59,9 @@ def process():
 
         result_df = pd.concat(results, ignore_index=True)
 
+        result_df.drop(labels="name",axis=1,inplace=True)
+        result_df.sort_values("uid",inplace=True)
+
     elif algorithm == 'glutton':
         result_df = glutton(df.copy(), 'age', k)
 
