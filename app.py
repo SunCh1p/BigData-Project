@@ -31,12 +31,24 @@ def process():
     df = pd.read_csv(filepath)
 
     if algorithm == 'mondrian':
-        partitions = mondrian(df.copy(), k)
+        partitions = mondrian(df.copy(), k, 0)
         results = []
 
         for part in partitions:
-            age_range = f"{part['age'].min()}-{part['age'].max()}"
+            # Handle min and max val anonymization:
+            if part['age'].min() == part['age'].max():
+                age_range = part['age'].max()
+            else:
+                age_range = f"{part['age'].min()}-{part['age'].max()}"
+
+            if part['zip'].min() == part['zip'].max():
+                zip_range = part['zip'].max()
+            else:
+                zip_range = f"{part['zip'].min()}-{part['zip'].max()}"
+            
+            # Update values for anonymization
             part['age'] = age_range
+            part['zip'] = zip_range
             results.append(part)
 
         result_df = pd.concat(results, ignore_index=True)
