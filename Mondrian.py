@@ -1,6 +1,6 @@
 #Mondrian algorithm
 def mondrian(data, k, target):
-    targetVals = ["age","zip"] # QI variables - hardcoded
+    targetVals = ["age","gender","zip"] # QI variables - hardcoded
 
     partition = []
     if len(data) <= 2 * k - 1:
@@ -15,6 +15,6 @@ def mondrian(data, k, target):
     #splits each half until k anonymity condition is met
 
     # Partition again wrt. next variable to split on...
-    partition.extend(mondrian(lhs, k, (target+1)%2)) 
-    partition.extend(mondrian(rhs, k, (target+1)%2))
+    partition.extend(mondrian(lhs, k, (target+1)%3)) 
+    partition.extend(mondrian(rhs, k, (target+1)%3))
     return partition

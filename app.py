@@ -45,10 +45,16 @@ def process():
                 zip_range = part['zip'].max()
             else:
                 zip_range = f"{part['zip'].min()}-{part['zip'].max()}"
+
+            if part['gender'].min() == part['gender'].max():
+                gen_range = part['gender'].max()
+            else:
+                gen_range = "discard" # If not uniform M or F, discard instead
             
             # Update values for anonymization
             part['age'] = age_range
             part['zip'] = zip_range
+            part['gender'] = gen_range
             results.append(part)
 
         result_df = pd.concat(results, ignore_index=True)
