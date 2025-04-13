@@ -1,6 +1,4 @@
 import pandas as pd
-import random
-
 
 #Extraction function to extract needed columns from dataframe
 def extractQI(data, QI):
