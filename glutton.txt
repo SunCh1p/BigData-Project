@@ -1,0 +1,30 @@
+We have a dataset with a quasidentifier in it 
+We extract the column of quasidentifiers and store them in an array along with maybe some other paired value so we can link it back to the original data
+
+Starting point after extraction
+  array of ages
+
+  sort the ages based off distance heuristic
+
+  create a list of lists [[]] with the first list inside being empty
+
+  choose a random point in the array
+  add it to empty list
+  
+  iteratively find k-1 closest points with some distance heuristic. When each point is added, calculate centroid which is average of all points. This will be used to
+  define closeness to other points.
+
+  Once list is filled with k points, create new list
+  repeat the process which new list, extract
+
+  stop once we have a list that cannot be filled
+  if there are elements in this list, place those elements in closest corresponding clusters
+
+  their closeness to a cluster will be defined off of a centroid which will be the average of all points in clusters
+
+  return the list of lists so that we can rebuild the table
+
+steps for implementing
+1) Create a means to extract data into usable array
+2) create our algorithm
+3) take the output of our algorithm and build the new table with the prior table and the outputted list of lists from our greedy gluton algorithm
