@@ -3,7 +3,8 @@ import pandas as pd
 import os
 from werkzeug.utils import secure_filename
 from Mondrian import mondrian
-from glutton import glutton
+# from glutton import glutton
+from gluttonMulti import glutton
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -59,14 +60,15 @@ def process():
 
         result_df = pd.concat(results, ignore_index=True)
 
-        result_df.drop(labels="name",axis=1,inplace=True)
-        result_df.sort_values("uid",inplace=True)
-
     elif algorithm == 'glutton':
-        result_df = glutton(df.copy(), 'age', k)
+        # result_df = glutton(df.copy(), 'age', k)
+        result_df = glutton(df,k)
 
     else:
         return "Invalid algorithm selected."
+
+    result_df.drop(labels="name",axis=1,inplace=True)
+    result_df.sort_values("uid",inplace=True)
 
     table_html = result_df.to_html(classes='styled-table', index=False)
     
